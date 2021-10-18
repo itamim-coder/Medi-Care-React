@@ -1,0 +1,18 @@
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 252, 252);
+    background-color: rgba(56, 58, 59, 0.404);
+    padding: 1em;
+    font-weight: 800;
+  }
+  .hero-text p{
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+  }
+  

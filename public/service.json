@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Neurology",
+      "image": "https://oilytheme.net/demo-html/2021/003/hounlare/assets/img/service/service-05.jpg",
+      "price": 20,
+      "description1": "As a broad category, a neurological disability is a condition that negatively impacts a person’s brain or nervous system in varying degrees of severity depending on the specific cause.",
+      "description2": "There are many conditions that negatively impact the brain and nervous system, and if severe enough they will require specialist neurological care services throughout the process, which covers everything from treatment to rehabilitation. As these conditions are becoming more common, it also becomes more important to understand how and where to receive effective treatment."
+    },
+    {
+      "id": 2,
+      "name": "Cardiovascular",
+      "image": "https://oilytheme.net/demo-html/2021/003/hounlare/assets/img/service/service-09.jpg",
+      "price": 30,
+      "description1": "We have expanded our cardiac capabilities with the Multi-Specialty Interventional Suite. ",
+      "description2": "Our new cutting-edge cardiac equipment enables physicians to capture and view detailed images of the coronary structure while facilitating faster and more accurate diagnoses and treatments with less radiation exposure, allowing for a safer experience. Benefits of minimally invasive interventions include shorter hospital stays, a quicker recovery period and return to daily activities, lower infection rates, smaller incisions and less pain and scarring."
+    },
+    {
+      "id": 3,
+      "name": "Ophtalmologue",
+      "image": "https://oilytheme.net/demo-html/2021/003/hounlare/assets/img/service/service-07.jpg",
+      "price": 15,
+      "description1": "We offer complete eye care services: Vision services, including eye exams",
+      "description2": "Specialised equipment such as the argon laser for treatment of diabetic eye diseases, and computerised visual field analysers for assessment of glaucoma, are available. Our Consultant, trained in optometry, helps in the prescription of glasses for both adults and children. All surgeries are conducted at state-of-the-art operation theatres of the hospital, and over 90% of the surgeries do not require hospital admission. The theatre is equipped with a phaco-emulsification machine for small incision cataract surgery."
+    },
+    {
+      "id": 4,
+      "name": "Dental",
+      "image": "https://oilytheme.net/demo-html/2021/003/hounlare/assets/img/service/service-10.jpg",
+      "price": 10,
+      "description1": "Dental or oral health is concerned with your teeth, gums and mouth.",
+      "description2": "We provides comprehensive dental care for children and adults. We provide preventive care in order to help our patients maintain a healthy mouth, as well as comprehensive restorative care to treat existing dental problems. Our dental staff not only treats dental disease, but also educates our patients on the importance of good oral hygiene and proper diet so that future dental problems may be prevented."
+    },
+    {
+      "id": 5,
+      "name": "Orthopedics",
+      "image": "https://images.unsplash.com/photo-1597764690523-15bea4c581c9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+      "price": 15,
+      "description1": "Orthopedics, or orthopedic services, aim at the treatment of the musculoskeletal system. This includes your bones, joints, ligaments, tendons, and muscles.",
+      "description2": "Our Orthopedic Surgeons provide both non-surgical and surgical treatments, and our surgeons, therapists, and other team members use the latest techniques, medications, and capabilities to provide the best care available. We specialize in knee, hip, and shoulder replacements, along with surgeries to solve problems with your feet, hands or other bones and joints."
+    },
+    {
+      "id": 6,
+      "name": "Pregnancy",
+      "image": "https://images.unsplash.com/photo-1457954275879-87d67ee5507e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80",
+      "price": 25,
+      "description1": "Pregnancy care consists of prenatal (before birth) and postpartum (after birth) healthcare for expectant mothers.",
+      "description2": "Prenatal care helps decrease risks during pregnancy and increases the chance of a safe and healthy delivery. Regular prenatal visits can help your doctor monitor your pregnancy and identify any problems or complications before they become serious."
+    }
+  ]
