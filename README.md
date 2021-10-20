@@ -1,11 +1,11 @@
 # Getting Started with Create React App
 
-Live Site : [Create React App](https://hospital-service-bafbe.web.app/).
+Live Site : [Medi Care](https://hospital-service-bafbe.web.app/).
  Feature of this website.\
-⚫Have many route.
-⚫User Authentication by google.
-⚫Use Registration by input email and password.
-⚫Display logged in user name in navbar.
+⚫Have many route.\
+⚫User Authentication by google.\
+⚫Use Registration by input email and password.\
+⚫Display logged in user name in navbar.\
 ⚫Responsive website for mobile
 
 ## Available Scripts
