@@ -1,10 +1,18 @@
 .card-body{
     padding-bottom: 30px;
-    background-color: rgb(186, 224, 230);
+    background-color: rgb(211, 200, 185);
     
 }
 .card{
     background-color: cornsilk;
     text-align: center;
 }
-
+.btn{
+    width: 100%;
+    background-color: rgb(220, 247, 71);
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: darkslategray;
+    color: ivory;
+}

@@ -1,0 +1,32 @@
+.work-container{
+    text-align: center;
+    background-color: rgba(221, 221, 221, 0.192);
+    padding: 1.5em;
+}
+.works-img {
+    border-radius: 50%;
+    width: 250px;
+    border: 5px solid rgb(110, 102, 86);
+    border-bottom: 25px transparent rgba(250, 102, 82, 0.534)  ;
+   
+   
+  }
+  .img-div{
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 5px;
+   
+
+     
+    
+      
+  }
+  /* .works-img:hover{
+   
+      border-bottom: 20px solid rgba(250, 102, 82, 0.534)  ;
+  } */
+  @media only screen and (max-width:688px){
+      .img-div{
+          grid-template-columns: repeat(1,1fr);
+      }
+  }

@@ -1,6 +1,12 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live Site : [Create React App](https://hospital-service-bafbe.web.app/).
+ Feature of this website.\
+⚫Have many route.
+⚫User Authentication by google.
+⚫Use Registration by input email and password.
+⚫Display logged in user name in navbar.
+⚫Responsive website for mobile
 
 ## Available Scripts
 

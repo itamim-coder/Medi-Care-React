@@ -1,0 +1,29 @@
+.nav-btn{
+    padding: 0.5em;
+    text-decoration: none;
+    
+    border: 1px solid wheat;
+    margin: 2px;
+    color: blanchedalmond;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.nav-btn:hover{
+    background-color: blanchedalmond;
+    color: black;
+    
+}
+.sign-btn{
+    padding: 0.5em;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid wheat;
+   
+}
+.nav-bar{
+    background-color: rgba(54, 54, 54, 0.712);
+}
+.login-name{
+    color: rgb(255, 255, 255);
+}
