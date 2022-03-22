@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Service.css'
+import './Department.css'
 
-const Service = ({service}) => {
-    const {id, name, image, description1} = service;
+const Department = ({department}) => {
+    const {_id, name, image, description1} = department;
     return (
         <div className="card">
             
@@ -13,12 +13,12 @@ const Service = ({service}) => {
             <p>{description1}</p>
            </div>
            <div>
-          <Link to={`/booking/${id}`}>
-          <button className="btn">Book</button>
+          <Link to={`/booking/${_id}`}>
+          <button className="btn">Details</button>
           </Link>
            </div>
         </div>
     );
 };
 
-export default Service;
+export default Department;

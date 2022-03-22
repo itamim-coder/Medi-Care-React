@@ -3,34 +3,31 @@ import { useParams } from 'react-router';
 import './Booking.css'
 
 const Booking = () => {
-    const {serviceId} = useParams()
-    const [serviceDetails ,setServiceDetails] = useState([]);
+    const {departmentId} = useParams()
+    const [departmentDetails ,setDepartmentDetails] = useState({});
 
-    const [displayDetails, setDisplayDetails] = useState({});
+ 
 
     useEffect(()=>{
-    
-        fetch('/dbDetails.json')
+        fetch(`http://localhost:5000/department/${departmentId}`)
         .then(res => res.json())
-        .then(data => setServiceDetails(data.details))
+        .then(data => setDepartmentDetails(data))
     },[])
 
-    useEffect(()=>{
-        const foundData = serviceDetails.find(serve=>serve.id == serviceId)
-        setDisplayDetails(foundData)
-    },[serviceDetails])
-//   const match = service.find(serv=>serv.id.includes(serviceId))
+ 
  
     return (
         <div className="details-container container">
            <div >
-               <img src={displayDetails?.image} alt="" />
+               <img src={departmentDetails?.image} alt="" />
+               <h2>{departmentDetails?.name}</h2>
+               <p>{departmentDetails?.description1}</p>
+               
 
            </div>
            <div  >
-               <h2>{displayDetails?.name}</h2>
-               <p>{displayDetails?.description2}</p>
-               <button className="btn">Book Now</button>
+           <button className="btn">Book Now</button>
+             
 
 
            </div>
