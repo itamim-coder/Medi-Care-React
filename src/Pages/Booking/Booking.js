@@ -9,7 +9,7 @@ const Booking = () => {
  
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/department/${departmentId}`)
+        fetch(`https://guarded-scrubland-50681.herokuapp.com/department/${departmentId}`)
         .then(res => res.json())
         .then(data => setDepartmentDetails(data))
     },[])

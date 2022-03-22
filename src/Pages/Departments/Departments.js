@@ -5,7 +5,7 @@ import './Departments.css'
 const Departments = () => {
     const [departments, setDepartments] = useState([])
     useEffect(()=>{
-        fetch('http://localhost:5000/department')
+        fetch('https://guarded-scrubland-50681.herokuapp.com/department')
         .then(res => res.json())
         .then(data => setDepartments(data));
     },[])
